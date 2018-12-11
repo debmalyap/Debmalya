@@ -1,0 +1,61 @@
+body,html{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+header
+{
+    display: inline;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+}
+header .navbar{
+    background: #663366;
+    display: inline;
+
+}
+.navbar a
+{
+    padding-right: 20px;
+    width: 100%;
+}
+
+
+.parallax {
+    
+    background-image: url('images/durga.jpg');
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+section
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+  
+.side
+{
+    flex: 30%;
+    padding: 5px;
+}
+  
+.aside
+{
+    flex: 30%;
+    padding: 5px;
+  }
+
+  footer
+  {
+      text-align: center;
+  }
+
+
+
+
